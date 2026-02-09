@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | IAM System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>📊 Dashboard</h1>
+        <p class="subtitle">Welcome to the IAM System</p>
+
+        <div class="info-box">
+            <p>Your assigned role:</p>
+            <h3 class="role">{{ role }}</h3>
+        </div>
+
+        <div class="actions">
+            <a href="/admin" class="btn primary">🔐 Admin Panel</a>
+            <a href="/logout" class="btn danger">🚪 Logout</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

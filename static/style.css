@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 5px;
+    color: #1e3c72;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Info box */
+.info-box {
+    background: #f3f6fb;
+    border-left: 4px solid #1e3c72;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.role {
+    color: #2a5298;
+    text-transform: uppercase;
+}
+
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background: #1e3c72;
+    color: white;
+}
+
+.btn.primary:hover {
+    background: #16325c;
+}
+
+.btn.danger {
+    background: #ff4d4d;
+    color: white;
+}
+
+.btn.danger:hover {
+    background: #e60000;
+}
